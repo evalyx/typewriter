@@ -1,0 +1,24 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+.tstage {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  
+  width: 100%;
+  height: 100vh;           /* Takes up 100% of the viewport height */
+  background-color: #f0f0f0; 
+}
+.textbox {
+  font-family: sans-serif;
+  line-height: 1.6;
+  /* Respects the line breaks in your HTML */
+  white-space: pre-wrap; 
+  /* Starts hidden to avoid a "flash" of text before JS runs */
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  justify-content: center;
+  align-items: center;
+}
