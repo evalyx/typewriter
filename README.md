@@ -52,7 +52,7 @@ Create a hidden `div` with the ID `typewriter-source`. Each `div` inside it repr
 
 ---
 
-## ⚙️ Configuration (Attributes)
+## Configuration (Attributes)
 
 You can customize the behavior by changing the attributes on the `.textbox` element:
 
@@ -66,7 +66,7 @@ You can customize the behavior by changing the attributes on the `.textbox` elem
 
 ---
 
-## 🎨 Recommended CSS
+## Recommended CSS
 To ensure the text wraps correctly and doesn't "flash" before the script loads, add this to your stylesheet:
 
 ```css
